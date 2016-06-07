@@ -7,11 +7,31 @@
 
 ## Learning Objectives - The student should be able to..
 
-* Blah blah blah\\\\\
+* Explain what a tuple is, how to create it, use it, break down its members.
+* Understand clearly the problem addressed below and how using a tuple solves it.
+* Create their own tuple in code.
+* Feel comfortable creating a function with the return type being a tuple.
 
 ## What the student can do at this point 
 
-* More stuff
+* Create variables and constants
+* Is familiar with type annotations, type inference and string interpolation.
+* Can create functions with return types.
+* Is familiar with the String, Int, Double, and Bool type.
+* Can perform arithmetic operations on Int and Double.
+* Understands if and else clause statements.
+* Can create and use Arrays.
+* Can iterate over an Array using a for-in loop.
+* Can iterate over an Array calling enumerate().
+* Work with the following methods on arrays:
+	* append()
+	* insert(_:atIndex:)
+	* removeAtIndex()
+	* subscript syntax with arrays
+	* count
+	* isEmpty
+	* Optionals
+	
 
 ## Outline / Notes
 
@@ -146,6 +166,6 @@ if imageDownload.success {
 * In this code above, we're checking to see if the image we're attempting to download was successful by checking the `Bool` value stored in the `imageDownload` constant. If `imageDownload.success` is `true` **THEN** display the image to the user **ELSE** (if the value of `imageDownload.success` is `false`) then display the error message to the user. We're also printing the message to the console by passing in `imageDownload.errorMessage` to the `print()` function as `imageDownload.errorMessage` is of type `String`.
 
 * As you progress through this course, you will not see tuples used that often. Tuples (according to Apple) are particularly useful as the return values of functions (as we showed you above). By returning a tuple with two distinct values, each of a different type, the function provides more useful information about its outcome than if it could only return a single value of a single type.
-* You will soon learn about dictoinaries in Swift. When you iterate over a dictionary in swift, each item in the dictionary is returned as a `(key, value)` tuple which you can decompose JUST like we did above. So in your future readings about dictionaries, come back to this reading should you have any questions in how to access the various values within the tuple variable.
+* You will soon learn about dictoinaries in Swift. When you iterate over a dictionary in swift, each item in the dictionary is returned as a `(key, value)` tuple which you can decompose JUST like we did above. So in your future readings about dictionaries, come back to this reading should you have any questions in how to access the various values within the tuple variable (or if you forgot how to pronounce it).
 
 <a href='https://learn.co/lessons/Tuples' data-visibility='hidden'>View this lesson on Learn.co</a>
