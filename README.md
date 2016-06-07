@@ -120,6 +120,32 @@ print("My best friend is \(friends.best) and my worst friend is \(friends.worst)
 // prints "My best friend is Finn and my worst friend is Jake."
 ```
 
-*
+* Lets go back to to the original problem now. If we were to call on this function, we know through its return type that we're to expet back a tuple of type (`Bool`, `String`). Lets try it out:
+
+![downloadImage](http://i.imgur.com/gatoOEI.png?1)
+
+* Here we called on the function `downloadImageAtURL()` and received back a tuple of type (`Bool`, `String`) and stored that inside of a constant named `imageDownload`.
+* So now we can access these two values within the `imageDownload` variable to see if our image succesfully downloaded and if not, then see what the problem is.
+
+```swift
+let imageDownload = downloadImageAtURL("http://www.apple.com/iPhone7")
+
+if imageDownload.success {
+    // image download was a success
+    // display the new image to the user
+} else {
+    // image download DID NOT SUCCEED
+    // display the error message to the user
+    
+    print(imageDownload.errorMessage)
+}
+
+// prints "Image no longer exists at that URL"
+```
+
+* In this code above, we're checking to see if the image we're attempting to download was successful by checking the `Bool` value stored in the `imageDownload` constant. If `imageDownload.success` is `true` **THEN** display the image to the user **ELSE** (if the value of `imageDownload.success` is `false`) then display the error message to the user. We're also printing the message to the console by passing in `imageDownload.errorMessage` to the `print()` function as `imageDownload.errorMessage` is of type `String`.
+
+* As you progress through this course, you will not see tuples used that often. Tuples (according to Apple) are particularly useful as the return values of functions (as we showed you above). By returning a tuple with two distinct values, each of a different type, the function provides more useful information about its outcome than if it could only return a single value of a single type.
+* You will soon learn about dictoinaries in Swift. When you iterate over a dictionary in swift, each item in the dictionary is returned as a `(key, value)` tuple which you can decompose JUST like we did above. So in your future readings about dictionaries, come back to this reading should you have any questions in how to access the various values within the tuple variable.
 
 <a href='https://learn.co/lessons/Tuples' data-visibility='hidden'>View this lesson on Learn.co</a>
