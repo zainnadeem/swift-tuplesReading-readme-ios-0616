@@ -1,11 +1,10 @@
 # Tuples
 
-<img src="http://i.imgur.com/gMMSTqF.jpg?1" alt="Drawing" style="width: 200px;"/>  
-
+![Drawing](http://i.imgur.com/gMMSTqF.jpg?1)
 
 > A day without sunshine is like, you know, night. 
 
-## Learning Objectives - The student should be able to..
+## Learning Objectives - The student should be able to...
 
 * Explain what a tuple is, how to create it, use it, break down its members.
 * Understand clearly the problem addressed below and how using a tuple solves it.
