@@ -25,7 +25,7 @@ You could instead use another Swift data structure to represent a 2D point: a _t
 
 ## Much Ado About Tuples
 
-Geometrical points are pretty abstract, so let's take a look at a more practical example. Say you were tasked with writing a function called `downloadImage(AtURL:)` that will download an image at a given URL, and return `true` if the image was downloaded. Your function might look something like this:
+Geometrical points are pretty abstract, so let's take a look at a more practical example. Say you were tasked with writing a function called `downloadImage(atURL:)` that will download an image at a given URL, and return `true` if the image was downloaded. Your function might look something like this:
 
 ```swift
 func downloadImage(atURL url: String) -> Bool {
