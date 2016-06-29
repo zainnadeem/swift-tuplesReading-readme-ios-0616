@@ -13,8 +13,6 @@
 
 ## The Point of Tuples
 
-<!-- I'm not sure how necessary this section is, given that a more practical example of tuples is given below. I thought it was a nice intro, but I'm okay with deleting it entirely, too. -->
-
 Consider a relatively simple data structure: A point in 2D space. You probably remember from geometry that such a point consists of two coordinates _(x,y)_ which together tell you where a point lies in a graph. Each individual value—_x_ and _y_—are important, but when you think of a point, you really think of these values together as _one unit_. An _x_ alone alone won't describe the location of a point. Nor will a _y_ value alone. You need both—together—to know where a point lies.
 
 What data structure would you use?
