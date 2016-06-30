@@ -4,7 +4,7 @@
 
 > A day without sunshine is like, you know, night. -Steve Martin 
 
-## Learning Objectives - The student should be able to...
+## Learning Objectives 
 
 * Explain what a tuple is, how to create it, use it, break down its members.
 * Understand clearly the problem addressed below and how using a tuple solves it.
