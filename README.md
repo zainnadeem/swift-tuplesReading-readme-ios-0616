@@ -2,7 +2,7 @@
 
 ![Drawing](http://i.imgur.com/gMMSTqF.jpg?1)
 
-> A day without sunshine is like, you know, night. 
+> A day without sunshine is like, you know, night. -Steve Martin 
 
 ## Learning Objectives - The student should be able to...
 
