@@ -21,3 +21,10 @@ var person2 = (name: "Jim", age: 30)
 print("\(person2.name)'s age is \(person2.age)")
 person2.age = 32
 print("\(person2.name)'s age is \(person2.age)")
+
+
+var person3 = (name: "john", age: 35)
+
+person.age
+person.name
+
